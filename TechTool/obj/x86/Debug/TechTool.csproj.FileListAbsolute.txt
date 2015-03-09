@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\bin\Debug\TechTool.exe
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\bin\Debug\TechTool.pdb
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.exe
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.pdb
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.Properties.Resources.resources
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.Form1.resources
