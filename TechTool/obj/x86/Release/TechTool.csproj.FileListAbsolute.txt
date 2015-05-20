@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\bin\Release\TechTool.exe
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\bin\Release\TechTool.pdb
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Release\TechTool.Form1.resources
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Release\TechTool.Properties.Resources.resources
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Release\TechTool.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Release\TechTool.exe
+C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Release\TechTool.pdb

@@ -47,6 +47,7 @@ namespace TechTool
         public List<Password> Passwords = new List<Password>();
         public int ProcessCount { get; set; }
 
+        public bool SystemRestoreState { get; set; }
 
         public DriveInfo[] Drives { get; set; }
 
@@ -126,6 +127,8 @@ namespace TechTool
             CheckStartUpApplications();
 
             GetAntivirusInfo();
+
+            GetSystemRestoreState();
         }
 
         /*return description of ram configuration*/
@@ -145,6 +148,8 @@ namespace TechTool
             System.Diagnostics.Debug.WriteLine(RamConfig);
             RamSlotCount = int.Parse(lines[2].Trim());
             RamSlot.Clear();
+
+            //make info string
             for (int i = 5; i < lines.Length; i += 10)
             {
                 long ramSize= long.Parse(lines[i+2]) / 1073741824;
@@ -152,8 +157,7 @@ namespace TechTool
                 ramConfig += slotInfo + "\r\n";
                 RamSlot.Add(slotInfo);
             }
-            //make info string
-
+            
             return ramConfig;
         }
 
@@ -171,6 +175,36 @@ namespace TechTool
             }
         }
 
+        
+        /*get system restore service info*/
+        public void GetSystemRestoreState()
+        {
+
+            /*
+            RegistryKey rk = Registry.LocalMachine;
+            RegistryKey rk1 = rk.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore");
+            try
+            {
+                string sysRestore = rk1.GetValue("RPSessionInterval").ToString();
+                if (sysRestore.Contains("1"))
+                {
+                    Console.WriteLine("system restore is enabled");
+                    SystemRestoreState = true;
+                }
+                else
+                {
+                    Console.WriteLine("system restore is not enabled");
+                    SystemRestoreState = false;
+                }
+
+            }catch (Exception e) {
+                Console.WriteLine("system restore is not enabled");
+                SystemRestoreState = false;
+            }
+            */
+        }
+
+        
         public string VirusScan (string scantype, string batchfile){
             string report = scantype +"\r\n";
             string results = new Script().RunApp(batchfile);
