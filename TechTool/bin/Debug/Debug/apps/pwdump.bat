@@ -1,0 +1,2 @@
+recovery\pwdump.exe
+exit

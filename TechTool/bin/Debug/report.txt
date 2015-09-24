@@ -1,0 +1,37 @@
+User: user on Computer: USER-PC
+OS: Microsoft Windows 10 Home 64-bit
+Owner: Windows User
+Language: (en-US)
+
+Mobo: Gigabyte Technology Co., Ltd. (H97M-D3H)
+
+CPU: Intel(R) Core(TM) i3-4150 CPU @ 3.50GHz
+Cores: 2	Threads: 4
+CPU Temperatures: 
+
+RAM: 7.93GB 	37% Used
+4 Ram Slots: 
+BANK 1: Kingston 4GB
+BANK 3: Kingston 4GB
+
+
+Drive Info:
+	C:\	232 GB	( 117 GB 	50% Free ) 
+	E:\	7 GB	( 4 GB 	57% Free ) 
+	
+
+Video:
+	NVIDIA GeForce GTX 650 Ti 
+
+
+Audio:
+	NVIDIA High Definition Audio
+	NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+	Realtek High Definition Audio
+
+Installed Applications: 153
+Start Up Applications: 19
+Running Processes: 110
+
+Antivirus Programs:
+		Windows Defender

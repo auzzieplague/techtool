@@ -10,14 +10,16 @@ using System.IO;
 using Microsoft.Win32;
 using Microsoft.VisualBasic.Devices;
 using System.Diagnostics;
+using System.Xml.Linq;
+using System.Xml.Serialization;
+
 
 namespace TechTool
 {
     public partial class Form1 : Form
     {
         PcInfo info;
-        Script script;
-
+        
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +29,14 @@ namespace TechTool
 
             info = new PcInfo();
             outputPanel.Text = info.ToString();
+            /*
+            var serializer = new XmlSerializer(typeof(PcInfo));
+            var stream = File.OpenWrite("test.xml");
+            //using ()
+            //{
+            //    serializer.Serialize(stream, info);
+            //}
+             */
         }
 
 
@@ -191,6 +201,13 @@ namespace TechTool
             SecurityOutput.Text += info.VirusScan("Full Scan", "malware_full.bat");
             SecurityOutput.Text += "======================\r\nMalware Scan Complete";
             SecurityOutput.Refresh();
+        }
+
+        private void printButton_Click(object sender, EventArgs e)
+        {
+            new Report(info).Save("report.txt");
+            new RemotePrint().Print("report.txt");
+            
         }
 
     }

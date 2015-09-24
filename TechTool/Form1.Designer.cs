@@ -36,6 +36,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.outputPanel = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,6 +47,8 @@
             this.DisabledStartupList = new System.Windows.Forms.ListBox();
             this.EnabledStartupList = new System.Windows.Forms.ListBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.fullmalwarescan = new System.Windows.Forms.Button();
+            this.malwarescanButton = new System.Windows.Forms.Button();
             this.SecurityOutput = new System.Windows.Forms.TextBox();
             this.PasswordButton = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -53,10 +57,7 @@
             this.serviceNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
-            this.malwarescanButton = new System.Windows.Forms.Button();
-            this.fullmalwarescan = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.printButton = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -148,6 +149,23 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "PC Info";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(355, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(69, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Observations";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(358, 28);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(339, 490);
+            this.textBox1.TabIndex = 1;
             // 
             // outputPanel
             // 
@@ -245,6 +263,26 @@
             this.tabPage3.Text = "Security";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // fullmalwarescan
+            // 
+            this.fullmalwarescan.Location = new System.Drawing.Point(166, 17);
+            this.fullmalwarescan.Name = "fullmalwarescan";
+            this.fullmalwarescan.Size = new System.Drawing.Size(132, 31);
+            this.fullmalwarescan.TabIndex = 8;
+            this.fullmalwarescan.Text = "Full Malware Scan";
+            this.fullmalwarescan.UseVisualStyleBackColor = true;
+            this.fullmalwarescan.Click += new System.EventHandler(this.fullmalwarescan_Click);
+            // 
+            // malwarescanButton
+            // 
+            this.malwarescanButton.Location = new System.Drawing.Point(19, 17);
+            this.malwarescanButton.Name = "malwarescanButton";
+            this.malwarescanButton.Size = new System.Drawing.Size(132, 31);
+            this.malwarescanButton.TabIndex = 7;
+            this.malwarescanButton.Text = "Malware Scan";
+            this.malwarescanButton.UseVisualStyleBackColor = true;
+            this.malwarescanButton.Click += new System.EventHandler(this.malwarescanButton_Click);
+            // 
             // SecurityOutput
             // 
             this.SecurityOutput.Location = new System.Drawing.Point(19, 59);
@@ -309,7 +347,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(271, 10);
+            this.button8.Location = new System.Drawing.Point(358, 12);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(82, 22);
             this.button8.TabIndex = 13;
@@ -317,48 +355,22 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // malwarescanButton
+            // printButton
             // 
-            this.malwarescanButton.Location = new System.Drawing.Point(19, 17);
-            this.malwarescanButton.Name = "malwarescanButton";
-            this.malwarescanButton.Size = new System.Drawing.Size(132, 31);
-            this.malwarescanButton.TabIndex = 7;
-            this.malwarescanButton.Text = "Malware Scan";
-            this.malwarescanButton.UseVisualStyleBackColor = true;
-            this.malwarescanButton.Click += new System.EventHandler(this.malwarescanButton_Click);
-            // 
-            // fullmalwarescan
-            // 
-            this.fullmalwarescan.Location = new System.Drawing.Point(166, 17);
-            this.fullmalwarescan.Name = "fullmalwarescan";
-            this.fullmalwarescan.Size = new System.Drawing.Size(132, 31);
-            this.fullmalwarescan.TabIndex = 8;
-            this.fullmalwarescan.Text = "Full Malware Scan";
-            this.fullmalwarescan.UseVisualStyleBackColor = true;
-            this.fullmalwarescan.Click += new System.EventHandler(this.fullmalwarescan_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(358, 28);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(339, 490);
-            this.textBox1.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(355, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Observations";
+            this.printButton.Location = new System.Drawing.Point(276, 12);
+            this.printButton.Name = "printButton";
+            this.printButton.Size = new System.Drawing.Size(75, 23);
+            this.printButton.TabIndex = 14;
+            this.printButton.Text = "Print";
+            this.printButton.UseVisualStyleBackColor = true;
+            this.printButton.Click += new System.EventHandler(this.printButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(743, 599);
+            this.Controls.Add(this.printButton);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.serviceNumber);
@@ -414,6 +426,7 @@
         private System.Windows.Forms.Button fullmalwarescan;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button printButton;
     }
 }
 

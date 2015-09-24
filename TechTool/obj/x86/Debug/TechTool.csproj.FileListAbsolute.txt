@@ -6,3 +6,27 @@ C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechT
 C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.Properties.Resources.resources
 C:\Users\User\Desktop\C# projects\techtool\TechTool\TechTool\obj\x86\Debug\TechTool.Form1.resources
+C:\Users\Rory.OFFICE07\Desktop\TechTool\TechTool\obj\x86\Debug\TechTool.exe
+C:\Users\Rory.OFFICE07\Desktop\TechTool\TechTool\obj\x86\Debug\TechTool.pdb
+C:\Users\Rory.OFFICE07\Desktop\TechTool\TechTool\obj\x86\Debug\TechTool.csprojResolveAssemblyReference.cache
+C:\Users\Rory.OFFICE07\Desktop\TechTool\TechTool\obj\x86\Debug\TechTool.Form1.resources
+C:\Users\Rory.OFFICE07\Desktop\TechTool\TechTool\obj\x86\Debug\TechTool.Properties.Resources.resources
+C:\Users\Rory.OFFICE07\Desktop\TechTool\TechTool\obj\x86\Debug\TechTool.csproj.GenerateResource.Cache
+C:\Users\Rory.OFFICE07\Desktop\TechTool\TechTool\bin\Debug\TechTool.exe
+C:\Users\Rory.OFFICE07\Desktop\TechTool\TechTool\bin\Debug\TechTool.pdb
+C:\Users\Rory.OFFICE07\Desktop\Micks\TechTool\TechTool\obj\x86\Debug\TechTool.exe
+C:\Users\Rory.OFFICE07\Desktop\Micks\TechTool\TechTool\obj\x86\Debug\TechTool.pdb
+C:\Users\Rory.OFFICE07\Desktop\Micks\TechTool\TechTool\bin\Debug\TechTool.exe
+C:\Users\Rory.OFFICE07\Desktop\Micks\TechTool\TechTool\bin\Debug\TechTool.pdb
+C:\Users\Rory.OFFICE07\Desktop\Micks\TechTool\TechTool\obj\x86\Debug\TechTool.csprojResolveAssemblyReference.cache
+C:\Users\Rory.OFFICE07\Desktop\Micks\TechTool\TechTool\obj\x86\Debug\TechTool.Form1.resources
+C:\Users\Rory.OFFICE07\Desktop\Micks\TechTool\TechTool\obj\x86\Debug\TechTool.Properties.Resources.resources
+C:\Users\Rory.OFFICE07\Desktop\Micks\TechTool\TechTool\obj\x86\Debug\TechTool.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\TechTool\obj\x86\Debug\TechTool.exe
+C:\Users\user\Desktop\TechTool\obj\x86\Debug\TechTool.pdb
+C:\Users\user\Desktop\TechTool\bin\Debug\TechTool.exe
+C:\Users\user\Desktop\TechTool\bin\Debug\TechTool.pdb
+C:\Users\user\Desktop\TechTool\obj\x86\Debug\TechTool.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\TechTool\obj\x86\Debug\TechTool.Form1.resources
+C:\Users\user\Desktop\TechTool\obj\x86\Debug\TechTool.Properties.Resources.resources
+C:\Users\user\Desktop\TechTool\obj\x86\Debug\TechTool.csproj.GenerateResource.Cache

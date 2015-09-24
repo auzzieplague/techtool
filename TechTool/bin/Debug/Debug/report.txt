@@ -1,0 +1,38 @@
+User: FloJo on Computer: FLOJO-PC
+OS: Microsoft Windows 7 Home Premium  64-bit
+Owner: FloJo
+Language: (en-US)
+
+Mobo: Dell Inc. (0XWH1P)
+
+CPU: Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+Cores: 2	Threads: 4
+CPU Temperatures: 
+
+RAM: 7.90GB 	25% Used
+2 Ram Slots: 
+BANK 0: Micron Technology 4GB
+BANK 2: Micron Technology 4GB
+
+
+Drive Info:
+	C:\	917 GB	( 387 GB 	42% Free ) 
+	E:\	7 GB	( 4 GB 	65% Free ) 
+	
+
+Video:
+	Intel(R) HD Graphics 4000
+	AMD Radeon HD 7670M
+
+
+Audio:
+	Conexant SmartAudio HD
+	Intel(R) Display Audio
+	Bluetooth Hands-free Audio
+
+Installed Applications: 219
+Start Up Applications: 75
+Running Processes: 102
+
+Antivirus Programs:
+	

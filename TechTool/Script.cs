@@ -15,7 +15,7 @@ namespace TechTool
             cmdLine.StartInfo.FileName = "cmd.exe";
             cmdLine.StartInfo.WorkingDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)+@"\apps";
             cmdLine.StartInfo.Arguments = " /K "+batFile;
-            cmdLine.StartInfo.CreateNoWindow = false;
+            cmdLine.StartInfo.CreateNoWindow = true;
             cmdLine.StartInfo.UseShellExecute = false;
             cmdLine.StartInfo.RedirectStandardOutput = true;
             cmdLine.StartInfo.RedirectStandardInput = true;
